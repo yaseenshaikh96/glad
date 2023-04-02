@@ -18,6 +18,11 @@ project "glad"
 		"include"
 	}
 
+	links
+	{
+		"opengl32.lib"
+	}
+
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
